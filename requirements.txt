@@ -1,0 +1,51 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+statsmodels>=0.14
+
+# Market data and APIs
+yfinance>=0.2.40
+python-binance>=1.0.19
+websockets>=12.0
+requests>=2.31
+
+# Machine learning
+xgboost>=2.0
+tensorflow>=2.15,<3.0
+shap>=0.44
+optuna>=3.6
+hmmlearn>=0.3
+joblib>=1.3
+
+# Reinforcement learning
+gym>=0.26
+gymnasium>=0.29
+stable-baselines3>=2.3
+
+# Alternative data and NLP
+transformers>=4.40
+torch>=2.2
+vaderSentiment>=3.3
+pytrends>=4.9
+fredapi>=0.5
+
+# Visualization, dashboards, and experiment tracking
+plotly>=5.20
+streamlit>=1.34
+mlflow>=2.12
+matplotlib>=3.8
+seaborn>=0.13
+
+# Configuration and utilities
+PyYAML>=6.0
+pydantic>=2.7
+python-dotenv>=1.0
+tqdm>=4.66
+
+# Development and testing
+pytest>=8.0
+pytest-cov>=5.0
+ruff>=0.4
+mypy>=1.10
