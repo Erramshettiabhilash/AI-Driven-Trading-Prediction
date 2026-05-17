@@ -67,31 +67,43 @@ cd AI-Driven-Quant-Research-Trading-Platform
 
 Installation
 Create Virtual Environment
+
 Windows
 python -m venv .venv
 
 Activate environment:
 
 .\.venv\Scripts\activate
+
 Linux / macOS
 python3 -m venv .venv
 
 Activate environment:
 
 source .venv/bin/activate
+
 Install Dependencies
 pip install -r requirements.txt
+
 Run Project
+
 Train XGBoost Model
 python scripts/train_xgboost.py
+
 Train LSTM Model
 python scripts/train_lstm.py
+
 Run Reinforcement Learning Agent
 python scripts/train_rl_agent.py
+
 Run Live Trading Signals
 python scripts/run_live_signals.py
+
 Launch Dashboard
 streamlit run scripts/run_dashboard.py
+
+
+
 Core Modules
 Feature Engineering
 RSI
@@ -101,32 +113,47 @@ ATR
 Volume analysis
 Volatility features
 Market structure features
+
+
 Machine Learning Models
+
 XGBoost
 LSTM
 Ensemble models
 Regime-aware models
+
 Reinforcement Learning
+
 PPO
 DQN
 A2C
+
 Evaluation Metrics
+
 Sharpe Ratio
 Max Drawdown
 CAGR
 Information Coefficient
 Win Rate
+
 Explainability
+
 SHAP feature importance
 Feature interaction analysis
 Model interpretability reports
+
+
 Project Goals
+
 Build institutional-style quantitative research workflows
 Develop AI-based predictive trading systems
 Combine ML + RL + risk management
 Create explainable trading models
 Evaluate strategies using real trading metrics
+
+
 Future Improvements
+
 Broker API integration
 Paper trading system
 Multi-asset portfolio optimization
@@ -136,3 +163,8 @@ High-frequency data support
 
 
 This project is for educational and research purposes.
+
+
+REPOSITORY CLONE 
+
+https://github.com/Erramshettiabhilash/AI-Driven-Trading-Prediction
